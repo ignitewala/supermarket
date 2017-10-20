@@ -22,6 +22,8 @@ Simulates a Super market
   If a cart has 10 items of a product ($100.00 each) and the supermarket is giving the following deals
   1. Buy 2 Gey 30%
   2. Buy 3 Get 40%
+  
+  <br>
   Then the discount process maximizes the user discount - it can choose a overall 5 X 2 (30%) discount = $140.00 X 5 = $700.00
   or a 3 X 3 (40%)  = $180.00 X 3 + $100.00 = $640.00.
   It asks for '$640.00
