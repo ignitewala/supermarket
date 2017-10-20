@@ -1,5 +1,5 @@
 # supermarket
-Simulate Super market
+Simulates a Super market
 
  <u><b>Description:</b></u> The checkout process will scan each item and get
   the price, finally apply discount. It will have a pre-configured inventory
@@ -18,3 +18,11 @@ Simulate Super market
   off, buy 5 get 50% etc. System will apply the maximum possible discount - for
   example if one buys 5 items then instead of giving 30% on 2 items and 40% on
   remaining 3 items, it will calculate flat 50% discount
+  
+  If a cart has 10 items of a product ($100.00 each) and the supermarket is giving the following deals
+  1. Buy 2 Gey 30%
+  2. Buy 3 Get 40%
+  Then the discount process maximizes the user discount - it can choose a overall 5 X 2 (30%) discount = $140.00 X 5 = $700.00
+  or a 3 X 3 (40%)  = $180.00 X 3 + $100.00 = $640.00.
+  It asks for '$640.00
+  
